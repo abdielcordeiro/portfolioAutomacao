@@ -1,0 +1,32 @@
+{
+  "config": {
+    "email": "abdiel.cordeiro@rsinet.com.br",
+    "password": "Trocar@123",
+    "fristName": "Abdiel",
+    "lastName": "Cordeiro",
+    "phoneNumber": "1198465-2784",
+    "city": "Osasco",
+    "user": "WSOJpm"
+  },
+  "produto": {
+    "mice": [
+      "HP USB 3 Button Optical Mouse"
+    ],
+    "laptops": [
+      "HP Chromebook 14 G1(ENERGY STAR)"
+    ],
+    "tablets": [
+      "HP Elitepad 1000 G2 Tablet"
+    ],
+    "headphones": [
+      "Beats Studio 2 Over-Ear Matte"
+    ],
+    "speadkers": [
+      "Bose Soundlink Bluetooth Speaker III"
+    ],
+    "error": [
+      "banana",
+      "mochila"
+    ]
+  }
+}
