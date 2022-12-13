@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "classpath:FeatureMobile",
-        glue = "br.com.abdiel.mobile.StepDefinitions",
+        glue = "src/test/java/br/com/abdiel/mobile/stepDefinitions",
         plugin = {"pretty","html:target/relatorioMobile/relatorio_teste","json:target/relatorioMobile/relatorio_teste.json", "junit:target/relatorioMobile/relatorio_teste.xml"},
         monochrome = true,
         publish = true,

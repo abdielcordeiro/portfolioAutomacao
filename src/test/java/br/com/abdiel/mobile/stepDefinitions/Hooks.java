@@ -9,6 +9,7 @@ import io.cucumber.java.After;
 import io.cucumber.java.Before;
 
 import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
 public class Hooks {
 
@@ -22,7 +23,7 @@ public class Hooks {
     @Before
     public void startTest() {
         driver = testContext.getDriverManager().createDriver(DeviceType.EMULADOR_ANDROID);
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     @After(order = 0)

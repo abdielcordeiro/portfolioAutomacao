@@ -35,7 +35,7 @@ public class DriverManager {
 
     public void closeDriver() {
         if (driver != null) {
-            driver.closeApp();
+            driver.quit();
             appiumServerManager.stopService();
         }
     }

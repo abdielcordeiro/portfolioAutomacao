@@ -6,7 +6,7 @@ import br.com.abdiel.mobile.pageFactory.PageBusca;
 import br.com.abdiel.mobile.pageFactory.PageHome;
 import io.cucumber.java.pt.*;
 
-import static org.testng.AssertJUnit.assertTrue;
+import static org.junit.Assert.assertTrue;
 
 
 public class BuscaLupaStep {
